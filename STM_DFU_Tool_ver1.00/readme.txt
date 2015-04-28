@@ -1,0 +1,17 @@
+STM32のDFUモードでプログラムを書き込むためのGUIツールです
+
+インストール：
+このフォルダごと好きなディレクトリにコピーしてください
+
+使い方：
+FileSelectボタンでhexファイルを選択してください
+Convertボタンで選択したhexファイルをdfuファイルに変換します
+SavaPathボタンでパスの保存が出来ますSavePath.txtに保存されます
+以降は同じ名前のhexファイルならを再選択しなくてもConvertを押すだけで変換できます
+書き込みボタンを押すと書き込みが始まります
+
+必要ツール：DFU_Command_Line_Tools_from_KSK
+http://miqn.net/node/185にあるDFU_Command_Line_Tools_from_KSKが必要ですダウンロードしてインストールしてください
+インストールしたらC:\Program Files\KSK\DFU_Command_Line_Tools_from_KSKにパスを通してください
+
+Java上で動作していますJava jdk 1.7 以上をインストールしてください
