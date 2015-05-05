@@ -1,2 +1,8 @@
 # STM_DFU_Tool
-test
+STM32にUSBによるDFU書き込みをするためのGUIツールです
+本ソフトウェアーとは別に以下のサイトのDFU_Command_Line_Tools_from_KSKが必要です
+http://miqn.net/node/185
+DFU_Command_Line_Tools_from_KSKによってSTM32に書き込むファイルを変換、書き込みを行っています
+インストールしたらC:\Program Files\KSK\DFU_Command_Line_Tools_from_KSKにパスを通してください
+
+Java上で動作していますJava jdk 1.7 以上をインストールしてください
